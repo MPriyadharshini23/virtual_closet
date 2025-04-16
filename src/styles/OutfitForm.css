@@ -1,0 +1,98 @@
+.outfit-form-container {
+    background-color: #fdf6e3;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .outfit-form-box {
+    background-color: #fffaf0;
+    padding: 2rem 3rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .outfit-form-box h3 {
+    color: #4e342e;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .outfit-form-box label {
+    color: #6d4c41;
+    font-weight: 500;
+  }
+  
+  .outfit-form-box select,
+  .outfit-form-box input[type="radio"] {
+    margin-top: 0.25rem;
+  }
+  
+  .outfit-form-box .form-select {
+    background-color: #f5f5dc;
+    border: 1px solid #d7ccc8;
+    color: #5d4037;
+  }
+  
+ 
+  .outfit-form-box .btn {
+    margin-top: 1rem;
+    border: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #a1887f !important;
+    color: #4e342e !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: #8d6e63;
+  }
+  
+  .btn-success {
+    background-color: #6d4c41;
+  }
+  
+  .btn-success:hover {
+    background-color: #5d4037;
+  }
+  
+ 
+  .alert-info {
+    background-color: #e0cfc2 !important;
+    border: none !important;
+    color: #4e342e !important;
+  }
+  
+  .alert-success {
+    background-color:#e0cfc2 !important ;
+    border: none !important;
+    color: #4e342e !important;
+  }
+  
+  .gender-icons label {
+    margin-right: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .planner-page {
+    background-color: #fdf6e3;
+    min-height: 100vh;
+    padding-top: 2rem;
+    text-align: center;
+  }
+  
+  .planner-title {
+    color: #4e342e; 
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  

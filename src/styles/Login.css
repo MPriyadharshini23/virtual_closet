@@ -1,0 +1,73 @@
+
+body {
+    background-color: #fdf6e3; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: none;
+    border-radius: 12px;
+  }
+  
+  h3 {
+    color: #4e342e;
+    font-weight: 600;
+  }
+  
+  label {
+    color: #5d4037;
+    font-weight: 500;
+  }
+  
+  .form-control {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn-brown {
+    background-color: #795548;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-brown:hover {
+    background-color: #5d4037;
+    color: #fff;
+  }
+  
+  .card p a {
+    color: #6d4c41; /* soft brown link */
+    text-decoration: none;
+  }
+  
+  .card p a:hover {
+    text-decoration: underline;
+  }
+  .form-control {
+    background-color: #fbeec1; /* soft beige */
+    border: 1px solid #a1887f; /* light brown border */
+    color: #4e342e; /* text color - deep brown */
+    border-radius: 6px;
+    padding: 10px;
+  }
+  input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #f8f1d7 inset !important;
+  box-shadow: 0 0 0 30px#F5F5DC inset !important;
+  -webkit-text-fill-color: #4e342e !important;
+}
+
+  .form-control:focus {
+    border-color: #795548;
+    box-shadow: 0 0 0 0.2rem rgba(121, 85, 72, 0.25);
+    background-color: #fff8e1;
+    outline: none;
+  }
+  

@@ -1,0 +1,77 @@
+/* Background */
+body {
+    background-color: #fdf6e3; /* soft beige */
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Card Styling */
+  .card {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  
+  /* Headings */
+  h3 {
+    color: #4e342e; /* deep brown */
+    font-weight: bold;
+  }
+  
+  /* Labels */
+  label {
+    color: #4e342e;
+    font-weight: 500;
+  }
+  
+  /* Input Fields */
+  .form-control {
+    background-color: #F5F5DC; /* pale beige */
+    border: 1px solid #d7ccc8;
+    color: #4e342e;
+    border-radius: 8px;
+  }
+  
+  .form-control::placeholder {
+    color: #a1887f;
+  }
+  
+  .form-control:focus {
+    border-color: #a1887f;
+    box-shadow: 0 0 0 0.1rem #d7ccc8;
+  }
+  
+  /* Autofill Fix */
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #F5F5DC inset !important;
+    box-shadow: 0 0 0 30px #F5F5DC inset !important;
+    -webkit-text-fill-color: #4e342e !important;
+  }
+  
+  /* Button Styling */
+  .btn-success {
+    background-color: #795548;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-success:hover {
+    background-color: #5d4037;
+    color: #fff;
+  }
+  
+  /* Link Text */
+  a {
+    color: #6d4c41;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

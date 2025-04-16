@@ -1,0 +1,45 @@
+/* Root Layout */
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #F5F5DC; /* Light Beige */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Make content grow to push footer down */
+.main-content {
+ margin-top: 5%; 
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.btn-brown{
+  background-color: #795548;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+.btn-brown:hover {
+  background-color: #5D4037; /* Darker Brown */
+  color: #fff;
+}
+  
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #4E342E; /* Dark Brown */
+  color: #FFF8E1;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  z-index: 1000;
+}
+

@@ -1,0 +1,40 @@
+.container {
+  min-height: 100vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  color: #4e342e;
+  font-weight: 700;
+}
+
+.card {
+  background-color: #fff3e0;
+  border: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-weight: 600;
+  color: #4e342e;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #5d4037;
+  line-height: 1.5;
+}
+
+.icon {
+  margin-right: 6px;
+  color: #a1887f;
+}
